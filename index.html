@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="title">HalalWatch Status</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+    <style>
+        fieldset {
+            text-align: center;
+        }
+
+        * {
+            font-family: Inter;
+            margin: 0;
+            padding: 0;
+            color: white;
+            all: 0.5s ease;
+        }
+
+        div {
+            padding: 10px;
+        }
+
+        button {
+            box-sizing: border-box;
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 5px;
+            background: #1d1d1d;
+            border: #3d3d3d solid 1px;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background: #2d2d2d;
+            border: #4d4d4d solid 1px;
+        }
+
+        hr {
+            border: #3d3d3d solid 1px;
+        }
+
+        body {
+            background: #1d1d1d;
+        }
+    </style>
+</head>
+
+<body style="height: fit-content; width: 250px;">
+    <div style="border-top: #2d2d2d solid 1px; height: 40px;">
+        <img src="logo.png" style="width: 17.5%; float: left;">
+        <H1 style="float: right; margin-top: 6px;">HALALWATCH &nbsp;</H1>
+    </div>
+    <div style="background: #2d2d2d; border-top: #3d3d3d solid 1px; text-align: center; display: block;" id="mainpage">
+        <h2>Class:</h2>
+        <h1 id="halalclass">...</h1>
+        <br>
+        <hr><br>
+        <button id="reportbtn">Report Haram/Halal</button>
+        <button id="aboutBTN1">About</button>
+    </div>
+    <div style="background: #2d2d2d; border-top: #3d3d3d solid 1px; text-align: center; display: none;" id="about">
+        <h1>Version 1.0</h1>
+        <h2>&copy; 2023 Bobuxstation</h2>
+        <br>
+        <hr><br>
+        <button id="aboutBTN2">Back</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

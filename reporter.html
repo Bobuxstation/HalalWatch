@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>HalalWatch Reporter</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+    <style>
+        fieldset {
+            text-align: center;
+        }
+
+        * {
+            font-family: Inter;
+            margin: 0;
+            padding: 0;
+            color: white;
+            all: 0.5s ease;
+        }
+
+        div {
+            padding: 10px;
+        }
+
+        button {
+            box-sizing: border-box;
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 5px;
+            background: #1d1d1d;
+            border: #3d3d3d solid 1px;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background: #2d2d2d;
+            border: #4d4d4d solid 1px;
+        }
+
+        hr {
+            border: #3d3d3d solid 1px;
+        }
+
+        body {
+            background: #1d1d1d;
+        }
+
+        table {
+            box-sizing: border-box;
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 5px;
+            background: #1d1d1d;
+            border: #3d3d3d solid 1px;
+            border-radius: 5px;
+        }
+
+        input,
+        select {
+            box-sizing: border-box;
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 5px;
+            background: #2d2d2d;
+            border: #3d3d3d solid 1px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div style="border-top: #2d2d2d solid 1px; height: 40px;">
+        <img src="logo.png" style="width: 40px; float: left;">
+        <H1 style="float: right; margin-top: 6px;">HALALWATCH REPORTER</H1>
+    </div>
+    <div style="background: #2d2d2d; border-top: #3d3d3d solid 1px; text-align: center;">
+        <table>
+            <thead>
+                <tr>
+                    <th>URL</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                <td>
+                    <input type="text" id="title">
+                </td>
+
+                <td>
+                    <select type="text" id="background-audio">
+                        <option>Halal</option>
+                        <option>Haram</option>
+                    </select>
+                </td>
+            </tbody>
+        </table>
+        <button id="addRow">Add</button>
+
+        <br>
+        <hr><br>
+
+        <table id="myTable">
+            <thead>
+                <tr>
+                    <th>URL</th>
+                    <th>Status</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+
+    <script src="addharam.js"></script>
+</body>
+
+</html>

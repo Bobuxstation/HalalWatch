@@ -1,0 +1,19 @@
+{
+    "name": "HalalWatch",
+    "version": "1.0",
+    "description": "Avoid Browsing Haram With This Extension!",
+    "manifest_version": 3,
+    "author": "MoBiZ-LTD",
+    "icons": {
+        "16": "logo.png",
+        "32": "logo.png",
+        "48": "logo.png",
+        "128": "logo.png"
+    },
+    "action": {
+        "default_popup": "index.html"
+    },
+    "permissions": [
+        "tabs"
+    ]
+}
